@@ -41,6 +41,7 @@ TOPUP ||--|| BANK : has
 TOPUP {
   int id PK
   int user_id FK
+  string transaction_code
   date topup_date
   int amount
   id merchant_id FK
@@ -52,6 +53,7 @@ WITHDRAW ||--|| BANK : has
 WITHDRAW {
   int id PK
   int user_id FK
+  string transaction_code
   date withdraw_date
   int amount
   id merchant_id FK

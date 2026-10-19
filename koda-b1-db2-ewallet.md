@@ -64,6 +64,8 @@ HISTORY }o--|| WITHDRAW : has
 HISTORY {
   int id PK
   int transfer_id FK
+  int topup_id FK
+  int withdraw_id FK
 }
 
 BANK {

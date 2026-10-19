@@ -58,9 +58,9 @@ WITHDRAW {
   id bank_id FK
 }
 
-HOSTORY }o--|| TRANSFER : has
-HOSTORY }o--|| TOPUP : has
-HOSTORY }o--|| WITHDRAW : has
+HISTORY }o--|| TRANSFER : has
+HISTORY }o--|| TOPUP : has
+HISTORY }o--|| WITHDRAW : has
 HISTORY {
   int id PK
   int transfer_id FK
